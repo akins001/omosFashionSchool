@@ -1,0 +1,14 @@
+.single-slider {
+    background-size: 65% auto; /* Adjust the background size as needed */
+    background-position: top right; /* Align background to bottom right */
+}
+
+.single-slider::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2); /* Adjust the opacity level (0.5 represents 50% opacity) */
+}
