@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/form.css">
+<link rel="shortcut icon" href="/assets/img/ofaLogo.jpg" type="image/x-icon">
+    <title>OFS</title>
+</head>
+<body>
+    <div class="top">
+        <div class="left"><img src="/assets/img/ofsLogo.jpg" alt="OFS Logo"></div>
+        <div class="right">Student Information Form</div>
+    </div>
+    <form action="/thankYou.html" name="Student Information" netlify>
+    <div class="form">
+        <h2>Personal Information</h2>
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName">
+        </div>
+        <div class="form-group">
+            <label for="brandName">Brand Name</label>
+            <input type="text" id="brandName" name="brandName">
+        </div>
+        <div class="form-group">
+            <label for="fbUsername">Facebook Username</label>
+            <input type="text" id="fbUsername" name="fbUsername">
+        </div>
+        <div class="form-group">
+            <label for="igUsername">Instagram Username</label>
+            <input type="text" id="igUsername" name="igUsername">
+        </div>
+        <div class="form-group">
+            <label for="tiktokHandle">TikTok Handle</label>
+            <input type="text" id="tiktokHandle" name="tiktokHandle">
+        </div>
+        <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber">
+        </div>
+        <div class="form-group">
+            <label for="guarantorName">Guarantor's Name</label>
+            <input type="text" id="guarantorName" name="guarantorName">
+        </div>
+        <div class="form-group">
+            <label for="healthIssues">Health Issues (if any)</label>
+            <input type="text" id="healthIssues" name="healthIssues">
+        </div>
+    </div>
+    <h2>Type of Membership</h2>
+    <div class="membership-section">
+        <label>Choose one:</label>
+        <div class="membership-options">
+            <label for="beginners">
+                <input type="radio" id="beginners" name="membership" value="Beginners class to advance">
+                Beginners class to advance
+            </label>
+        </div>
+        <div class="membership-options">
+            <label for="intermediate">
+                <input type="radio" id="intermediate" name="membership" value="Intermediate to advanced">
+                Intermediate to advanced
+            </label>
+        </div>
+        <div class="membership-options">
+            <label for="advanced">
+                <input type="radio" id="advanced" name="membership" value="Advanced class">
+                Advanced class
+            </label>
+        </div>
+        <div class="membership-options">
+            <label for="crash-course">
+                <input type="radio" id="crash-course" name="membership" value="crash-course">
+                1 month crash-course
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>
