@@ -1,0 +1,126 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #BA9043;
+    color: #ffffff;
+}
+
+.left {
+    width: 15%;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically */
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right {
+    font-size: 5vw;
+    width: 80%;
+    text-align: right;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically */
+}
+
+.form {
+    padding: 10px;
+    margin: 10px;             /* Adds margin around the form */
+    background-color: #f8f8f8; /* Optional: Adds a background color for better visibility */
+    border-radius: 8px;       /* Optional: Adds rounded corners to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #BA9043;
+}
+
+.form .form-group {
+    margin-bottom: 10px;      /* Adds margin between form groups */
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;       /* Adds margin below the labels */
+    font-weight: bold;        /* Optional: Makes the labels bold */
+}
+
+.form input[type="text"],
+.form input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;          /* Adds margin above the input fields */
+    box-sizing: border-box;
+    border: 1px solid #ccc;   /* Adds a border to input fields */
+    border-radius: 4px;       /* Adds rounded corners to input fields */
+}
+
+/* Styles for Type of Membership section */
+.membership-section {
+    padding: 10px 0;
+    margin: 10px;      /* Adds margin to the bottom of the section */
+}
+
+.membership-section h2 {
+    margin: 5px;
+}
+
+.membership-section .form-group {
+    margin: 5px;
+}
+
+.membership-section label {
+    margin-left: 5px;
+}
+
+.membership-section input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-group button[type="submit"] {
+    width: 100%; /* Makes the button full width */
+    height: 60px;
+    padding: 10px 0; /* Adjusts padding for better alignment */
+    background-color: #BA9043;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #956f31;
+}
+
+/* Media query for smaller screens (phones) */
+@media only screen and (max-width: 600px) {
+    .left {
+        width: 30%;
+    }
+
+    .right {
+        font-size: 5vw;
+        width: 70%;
+    }
+
+    .form {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .form input[type="text"],
+    .form input[type="tel"] {
+        padding: 3px;
+    }
+
+    .form-group button[type="submit"] {
+        height: 50px;
+        font-size: 6vw;
+    }
+}
